@@ -12,11 +12,11 @@ enum UserActions: String, CaseIterable {
     case loadImage = "Show tiger"
     case exampleOne = "Random jokes"
     case exampleTwo = "Random doggie"
-    case post = "Post"
-    case postModel = "Post model"
-    case get = "Get"
-    case alamofireGet = "Ala Get"
-    case alamofirePost = "Ala Post"
+    case alamofirePost = "Send image and show it"
+    case post = "Post my info and print it"
+    case postModel = "Post dogi model and print it"
+    case alamofireGet = "Get random joke and print it"
+    case get = "Print 'Not yet'"
 }
 
 
